@@ -9,7 +9,7 @@
 </p>
 <h1 align="center">Armored Legacy Resource Pack</h1>
 
-**Armored Legacy** is a resource pack that revamps vanilla armor, giving it a powerful new look with custom models and textures using [EMF](https://modrinth.com/mod/entity-model-features). It is compatible with animation resource packs and also features glowing armor trims that are compatible with shaders.
+**Armored Legacy** is a resource pack that revamps vanilla armor, giving it a powerful new look with custom models and textures using [EMF](https://modrinth.com/mod/entity-model-features) and [ETF](https://modrinth.com/mod/entitytexturefeatures). It is compatible with animation resource packs and also features glowing armor trims that are compatible with shaders.
 
 ![Armor Sets Preview](preview/set.png)
 
@@ -22,7 +22,7 @@
 ![Armor Trim Preview](preview/trims2_night.png)
 
 ## ⚙️ Compatibility & Usage
-This pack requires versions `1.21.2` and above with [EMF](https://modrinth.com/mod/entity-model-features) installed.
+This pack requires versions `1.21.2` and above with [EMF](https://modrinth.com/mod/entity-model-features) and [ETF](https://modrinth.com/mod/entitytexturefeatures) installed.
 
 Resource packs that change all vanilla armor are **NOT** compatible. Mods with custom armors may require compatibility packs. If you'd like to create one, please open a thread in the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues).
 
