@@ -4,3 +4,4 @@
 *.aseprite
 *.bbmodel
 **/*_bak/
+*_bak
