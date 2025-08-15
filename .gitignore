@@ -1,0 +1,6 @@
+*.ps1
+*.py
+*.zip
+*.aseprite
+*.bbmodel
+**/*_bak/
