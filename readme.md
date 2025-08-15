@@ -30,7 +30,7 @@ Make sure this pack is placed **above** any other resource packs to avoid confli
 
 ### Please also check out my other pack [Hardware Reforged](https://modrinth.com/resourcepack/hardware-reforged)! Fully compatible with Armored Legacy and is designed to be used together.
 
-<a href="https://ko-fi.com/mult1v4c"><img src="preview/hardware.png"></a>
+<a href="https://modrinth.com/resourcepack/hardware-reforged"><img src="preview/hardware.png"></a>
 
 ## 📝 Attribution
 
