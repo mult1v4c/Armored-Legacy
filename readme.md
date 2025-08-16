@@ -32,6 +32,10 @@ Make sure this pack is placed **above** any other resource packs to avoid confli
 
 <a href="https://modrinth.com/resourcepack/hardware-reforged"><img src="preview/hardware.png"></a>
 
+## ❗Known Issues
+
+Emissive trims do not work for `1.21.1` and below.
+
 ## 📝 Attribution
 
 All models and textures in *Armored Legacy* is made by me. However, this pack is inspired and influenced by ***Armory Conglomery*** by ***lukidon*** on [Modrinth](https://modrinth.com/resourcepack/armory-conglomery) and [Curseforge](https://www.curseforge.com/minecraft/texture-packs/armory-conglomery). Check out more of their work [here](https://modrinth.com/user/lukidonu) and [here](https://www.curseforge.com/members/lukidon/projects).
