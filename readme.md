@@ -22,7 +22,7 @@
 ![Armor Trim Preview](preview/trims2_night.png)
 
 ## ⚙️ Compatibility & Usage
-This pack requires versions `1.21.2` and above with [EMF](https://modrinth.com/mod/entity-model-features) and [ETF](https://modrinth.com/mod/entitytexturefeatures) installed.
+This pack requires versions `1.21.2` and above to work as intended with [EMF](https://modrinth.com/mod/entity-model-features) and [ETF](https://modrinth.com/mod/entitytexturefeatures) installed.
 
 Resource packs that change all vanilla armor are **NOT** compatible. Mods with custom armors may require compatibility packs. If you'd like to create one, please open a thread in the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues).
 
