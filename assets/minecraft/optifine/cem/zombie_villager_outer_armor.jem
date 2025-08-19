@@ -23,17 +23,34 @@
 				{
 					"id": "bone",
 					"invertAxis": "xy",
-					"translate": [6.3, 32, 0.5],
+					"translate": [6.3, 31.5, 0.5],
 					"rotate": [30, 0, 0],
 					"boxes": [
 						{
-							"coordinates": [-10.8, -1.5, -5.5, 9, 3, 7],
+							"coordinates": [-10.8, -2.5, -5.5, 9, 3, 7],
 							"uvNorth": [40, 8, 49, 12],
 							"uvEast": [32, 8, 40, 12],
 							"uvSouth": [40, 12, 49, 16],
 							"uvWest": [32, 12, 40, 16],
 							"uvUp": [49, 8, 40, 0],
 							"uvDown": [40, 0, 32, 8],
+							"sizeAdd": 0.6
+						}
+					]
+				},
+				{
+					"id": "bone3",
+					"invertAxis": "xy",
+					"translate": [6.3, 31.5, 0.5],
+					"boxes": [
+						{
+							"coordinates": [-10.8, -2.5, -5.5, 9, 3, 7],
+							"uvNorth": [55, 8, 64, 12],
+							"uvEast": [56, 40, 64, 44],
+							"uvSouth": [55, 12, 64, 16],
+							"uvWest": [56, 44, 64, 48],
+							"uvUp": [64, 8, 55, 0],
+							"uvDown": [64, 32, 56, 40],
 							"sizeAdd": 0.6
 						}
 					]

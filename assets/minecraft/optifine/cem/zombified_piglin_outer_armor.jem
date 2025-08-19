@@ -8,23 +8,49 @@
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
 			"boxes": [
-				{"coordinates": [-4.5, 24, -4, 9, 8, 8], "textureOffset": [0, 0], "sizeAdd": 0.6}
+				{
+					"coordinates": [-5, 24, -4, 10, 8, 8],
+					"uvNorth": [8, 8, 16, 16],
+					"uvEast": [0, 8, 8, 16],
+					"uvSouth": [24, 8, 32, 16],
+					"uvWest": [16, 8, 24, 16],
+					"uvUp": [16, 8, 8, 0],
+					"uvDown": [24, 0, 16, 8],
+					"sizeAdd": 0.6
+				}
 			],
 			"submodels": [
 				{
 					"id": "bone",
 					"invertAxis": "xy",
-					"translate": [6.3, 30, 0.5],
+					"translate": [6.3, 29.5, 0.5],
 					"rotate": [30, 0, 0],
 					"boxes": [
 						{
-							"coordinates": [-11.3, -1.5, -5.5, 10, 3, 7],
+							"coordinates": [-11.8, -2.5, -5.5, 11, 3, 7],
 							"uvNorth": [40, 8, 49, 12],
 							"uvEast": [32, 8, 40, 12],
 							"uvSouth": [40, 12, 49, 16],
 							"uvWest": [32, 12, 40, 16],
 							"uvUp": [49, 8, 40, 0],
 							"uvDown": [40, 0, 32, 8],
+							"sizeAdd": 0.6
+						}
+					]
+				},
+				{
+					"id": "bone3",
+					"invertAxis": "xy",
+					"translate": [6.3, 29.5, 0.5],
+					"boxes": [
+						{
+							"coordinates": [-11.8, -2.5, -5.5, 11, 3, 7],
+							"uvNorth": [55, 8, 64, 12],
+							"uvEast": [56, 40, 64, 44],
+							"uvSouth": [55, 12, 64, 16],
+							"uvWest": [56, 44, 64, 48],
+							"uvUp": [64, 8, 55, 0],
+							"uvDown": [64, 32, 56, 40],
 							"sizeAdd": 0.6
 						}
 					]

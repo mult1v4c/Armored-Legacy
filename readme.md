@@ -21,8 +21,18 @@
 
 ![Armor Trim Preview](preview/trims2_night.png)
 
+## Version 1.1.0 Release
+Now you can adjust or totally remove the visor by naming it on an anvil. Only applies to **Diamond Helmet** and **Netherite Helmet**. Needs [Variants CIT](https://modrinth.com/mod/variants-cit) installed to work properly.
+
+Rename **Diamond Helmet** to `Diamond Helm` or `Diamond Skullcap`
+
+Rename **Netherite Helmet** to `Netherite Helm` or `Netherite Skullcap`
+
+![Visor preview](preview/visor.png)
+
 ## ⚙️ Compatibility & Usage
-This pack requires versions `1.21.2` and above to work as intended with [EMF](https://modrinth.com/mod/entity-model-features) and [ETF](https://modrinth.com/mod/entitytexturefeatures) installed.
+
+This pack works with versions `1.20` until the latest version. However, glowing trims requires versions `1.21.2` and above to work as intended.
 
 Resource packs that change all vanilla armor are **NOT** compatible. Mods with custom armors may require compatibility packs. If you'd like to create one, please open a thread in the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues).
 
@@ -31,10 +41,6 @@ Make sure this pack is placed **above** any other resource packs to avoid confli
 ### Please also check out my other pack [Hardware Reforged](https://modrinth.com/resourcepack/hardware-reforged)! Fully compatible with Armored Legacy and is designed to be used together.
 
 <a href="https://modrinth.com/resourcepack/hardware-reforged"><img src="preview/hardware.png"></a>
-
-## ❗Known Issues
-
-Emissive trims do not work for `1.21.1` and below.
 
 ## 📝 Attribution
 
