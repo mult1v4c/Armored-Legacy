@@ -1,0 +1,11 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:diamond_helmet"
+	],
+	"modelPrefix": "diamond/",
+	"parameters": {
+		"debug": true
+	}
+}
