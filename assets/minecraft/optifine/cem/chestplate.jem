@@ -1,0 +1,92 @@
+{
+	"credit": "Made by mult1v4c with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16], "sizeAdd": 1.2}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 16], "sizeAdd": 0.5}
+			],
+			"submodels": [
+				{
+					"id": "bone2",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-8, 17, -2, 3, 3, 4],
+							"uvNorth": [56, 44, 52, 48],
+							"uvEast": [44, 44, 40, 48],
+							"uvSouth": [48, 44, 44, 48],
+							"uvWest": [52, 44, 48, 48],
+							"sizeAdd": 0.75
+						}
+					]
+				},
+				{
+					"id": "left_arm_shoulder",
+					"invertAxis": "xy",
+					"translate": [-6.5, 22, 0],
+					"boxes": [
+						{
+							"coordinates": [-1.5, -2, -2, 3, 4, 4],
+							"uvNorth": [50, 52, 45, 58],
+							"uvSouth": [55, 52, 50, 58],
+							"uvWest": [45, 52, 40, 58],
+							"uvUp": [45, 63, 50, 58],
+							"sizeAdd": 1.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [40, 16], "sizeAdd": 0.5},
+				{
+					"coordinates": [5, 17, -2, 3, 3, 4],
+					"uvNorth": [44, 44, 48, 48],
+					"uvEast": [40, 44, 44, 48],
+					"uvSouth": [52, 44, 56, 48],
+					"uvWest": [48, 44, 52, 48],
+					"sizeAdd": 0.75
+				}
+			],
+			"submodels": [
+				{
+					"id": "right_arm_shoulder",
+					"invertAxis": "xy",
+					"translate": [6.5, 22, 0],
+					"boxes": [
+						{
+							"coordinates": [-1.5, -2, -2, 3, 4, 4],
+							"uvNorth": [45, 52, 50, 58],
+							"uvEast": [40, 52, 45, 58],
+							"uvSouth": [50, 52, 55, 58],
+							"uvUp": [50, 63, 45, 58],
+							"sizeAdd": 1.5
+						}
+					]
+				}
+			]
+		}
+	]
+}
