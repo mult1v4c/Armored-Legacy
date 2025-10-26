@@ -51,9 +51,13 @@ Rename **Netherite Helmet** to `Netherite Visor Down` or `Netherite Visor Up`
 
 This pack works with versions `1.20` until the latest version.
 
+Make sure this pack is placed **above** any other resource packs to avoid conflicts.
+
 Resource packs that change all vanilla armor are **NOT** compatible. Mods with custom armors may require compatibility packs. If you'd like to create one, please open a thread in the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues).
 
-Make sure this pack is placed **above** any other resource packs to avoid conflicts.
+As of version `1.21.9` and above, this pack is **NOT** compatible with any player animation packs such as Fresh Moves, Better Animations, etc. due to changes with vanilla armor configurations.
+
+---
 
 ### Please also check out my other pack [Hardware Reforged](https://modrinth.com/resourcepack/hardware-reforged)! Fully compatible with Armored Legacy and is designed to be used together.
 
