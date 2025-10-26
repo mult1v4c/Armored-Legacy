@@ -1,9 +1,0 @@
-{
-    "layers": {
-        "humanoid": [
-            {
-                "texture": "minecraft:visor/diamond_helm"
-            }
-        ]
-    }
-}

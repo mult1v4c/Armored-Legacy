@@ -2,7 +2,7 @@
     "layers": {
         "humanoid": [
             {
-                "texture": "minecraft:goggles/copper_goggles_on"
+                "texture": "minecraft:visor/copper_goggles_on"
             }
         ]
     }

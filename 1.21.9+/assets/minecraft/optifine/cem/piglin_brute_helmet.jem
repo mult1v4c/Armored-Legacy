@@ -1,0 +1,70 @@
+{
+	"credit": "Made by mult1v4c with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 24, -4, 9, 8, 8], "textureOffset": [0, 0], "sizeAdd": 0.6},
+				{
+					"coordinates": [-1.25, 32.6, -0.75, 2.5, 3, 1.5],
+					"uvNorth": [4, 0, 6, 4],
+					"uvEast": [4, 0, 6, 4],
+					"uvSouth": [4, 0, 6, 4],
+					"uvWest": [4, 0, 6, 4]
+				},
+				{
+					"coordinates": [-1.5, 35.6, -1.5, 3, 3, 3],
+					"uvNorth": [0, 0, 4, 4],
+					"uvEast": [0, 0, 4, 4],
+					"uvSouth": [0, 0, 4, 4],
+					"uvWest": [0, 0, 4, 4],
+					"uvUp": [0, 0, 4, 4],
+					"uvDown": [0, 4, 4, 8]
+				}
+			],
+			"submodels": [
+				{
+					"id": "bone",
+					"invertAxis": "xy",
+					"translate": [6.3, 29.5, 0.5],
+					"rotate": [30, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-11.3, -2.5, -5.5, 10, 3, 7],
+							"uvNorth": [32, 8, 42, 12],
+							"uvEast": [32, 12, 40, 16],
+							"uvWest": [40, 12, 32, 16],
+							"uvUp": [42, 8, 32, 0],
+							"sizeAdd": 0.6
+						}
+					]
+				},
+				{
+					"id": "bone3",
+					"invertAxis": "xy",
+					"translate": [6.3, 29.5, 0.5],
+					"boxes": [
+						{
+							"coordinates": [-11.3, -2.9, -5, 10, 3, 7],
+							"uvNorth": [42, 8, 52, 12],
+							"uvEast": [42, 12, 50, 16],
+							"uvWest": [50, 12, 42, 16],
+							"uvUp": [52, 8, 42, 0],
+							"sizeAdd": 0.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}
