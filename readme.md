@@ -17,11 +17,13 @@
 
 ### Armor Trims
 
-Armored Legacy has fully integrated vanilla armor trims to support the custom models. Glowing trims require versions `1.21.2` until `1.21.8` to work as intended. As of `1.21.9` and above, glowing trims are not working.
+Armored Legacy has fully integrated vanilla armor trims to support the custom models.
 
 ![Armor Trim Preview](preview/trims1.png)
 
 ![Armor Trim Preview](preview/trims2.png)
+
+Glowing trims require versions `1.21.2` until `1.21.8` to work as intended. As of `1.21.9` and above, glowing trims are not working.
 
 ![Glowing Armor Trim Preview](preview/trims1_night.png)
 
