@@ -6,3 +6,8 @@
 **/*_bak/
 *_bak.*
 *.psd
+*.test
+.templates
+.venv
+.archive
+releases

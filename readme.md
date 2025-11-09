@@ -55,8 +55,6 @@ Make sure this pack is placed **above** any other resource packs to avoid confli
 
 Resource packs that change all vanilla armor are **NOT** compatible. Mods with custom armors may require compatibility packs. If you'd like to create one, please open a thread in the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues).
 
-As of version `1.21.9` and above, this pack is **NOT** compatible with any player animation packs such as Fresh Moves, Better Animations, etc. due to changes with vanilla armor configurations.
-
 ---
 
 ### Please also check out my other pack [Hardware Reforged](https://modrinth.com/resourcepack/hardware-reforged)! Fully compatible with Armored Legacy and is designed to be used together.
@@ -65,17 +63,27 @@ As of version `1.21.9` and above, this pack is **NOT** compatible with any playe
 
 ## ✅ Roadmap
 
-There are plans to make compatibility packs for the following mods. Some made possible by fans of Armored Legacy:
+Several mods are now live for testing! These are currently just compatible for Armored Legacy and not yet similar in style.
 
-- [ ] Advanced Netherite
-- [ ] Gourd Guards
-- [ ] Undead Unleashed
-- [ ] Born in Chaos
-- [ ] Twilight Forest
-- [ ] Mekanism Tools
-- [ ] Divine RPG
-- [ ] Aquaculture 2
-- [ ] Create Mod (Cardboard Armor)
+I'd like to give thanks to GitHub user UlyssGtz and Moses24713 for the wonderful help for the textures some of the mod integrations!
+
+| Mod Name                 | Compatible | AL Style |
+|--------------------------|:----------:|:--------:|
+| Advanced Netherite       |      ✅     |     ❌    |
+| Aquaculture 2            |      ✅     |     ❌    |
+| Born in Chaos            |      ✅     |     ❌    |
+| Create Mod               |      ✅     |     ❌    |
+| Divine RPG               |      ✅     |     ❌    |
+| Friends and Foes         |      ✅     |     ❌    |
+| Gourd Guards             |      ✅     |     ❌    |
+| Mekanism Tools           |      ✅     |     ❌    |
+| Minecolonies             |      ✅     |     ❌    |
+| MmmMmmMmmMmm (Dummy Mod) |      ✅     |     ❌    |
+| Terramity                |      ✅     |     ❌    |
+| Tough As Nails           |      ✅     |     ❌    |
+| Twilight Forest          |      ✅     |     ❌    |
+| Undead Unleashed         |      ✅     |     ❌    |
+| Valarian Conquest        |      ✅     |     ❌    |
 
 Bigger mods that adds multiple armors may take a while to review and complete. Please check the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues) to know your favorite mod has been reported.
 

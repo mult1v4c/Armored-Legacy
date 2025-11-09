@@ -1,0 +1,68 @@
+{
+	"credit": "Made by mult1v4c with Blockbench",
+	"textureSize": [512, 256],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16], "sizeAdd": 1.2}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [5, -22, 0],
+			"boxes": [
+				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 16], "sizeAdd": 0.5}
+			],
+			"submodels": [
+				{
+					"id": "left_arm_shoulder",
+					"invertAxis": "xy",
+					"translate": [-6.5, 22, 0],
+					"boxes": [
+						{
+							"coordinates": [-1.5, -2, -2, 3, 4, 4],
+							"uvNorth": [197, 21, 192, 27],
+							"uvSouth": [208, 21, 203, 27],
+							"uvWest": [203, 21, 197, 27],
+							"uvUp": [192, 21, 197, 15],
+							"sizeAdd": 1.5
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"boxes": [
+				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [40, 16], "sizeAdd": 0.5}
+			],
+			"submodels": [
+				{
+					"id": "right_arm_shoulder",
+					"invertAxis": "xy",
+					"translate": [6.5, 22, 0],
+					"boxes": [
+						{
+							"coordinates": [-1.5, -2, -2, 3, 4, 4],
+							"uvNorth": [192, 21, 197, 27],
+							"uvEast": [197, 21, 203, 27],
+							"uvSouth": [203, 21, 208, 27],
+							"uvUp": [197, 21, 192, 15],
+							"sizeAdd": 1.5
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:visor/copper_goggles_off"
+            }
+        ]
+    }
+}

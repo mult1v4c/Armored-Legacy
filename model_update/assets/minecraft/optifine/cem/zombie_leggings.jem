@@ -1,0 +1,158 @@
+{
+	"credit": "Made by mult1v4c with Blockbench",
+	"textureSize": [512, 256],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "body_pants",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 48], "sizeAdd": 0.5},
+						{
+							"coordinates": [-4, 13, -2, 8, 2, 4],
+							"uvNorth": [196, 28, 204, 31],
+							"uvEast": [192, 28, 196, 31],
+							"uvSouth": [208, 28, 216, 31],
+							"uvWest": [204, 28, 208, 31],
+							"sizeAdd": 1
+						}
+					],
+					"submodels": [
+						{
+							"id": "body_pants_tasset2",
+							"invertAxis": "xy",
+							"translate": [0, 10.1, 3.3],
+							"rotate": [-10, 0, 0],
+							"boxes": [
+								{"coordinates": [-3, -2, -0.5, 6, 7, 1], "textureOffset": [205, 7]}
+							]
+						},
+						{
+							"id": "left_leg_pants_tasset2",
+							"invertAxis": "xy",
+							"translate": [-3.8, 9.9, 0],
+							"rotate": [0, 0, -12.5],
+							"boxes": [
+								{
+									"coordinates": [-1.5, 0.3, -2, 3, 4, 4],
+									"uvNorth": [205, 5, 201, 10],
+									"uvSouth": [196, 5, 192, 10],
+									"uvWest": [201, 5, 196, 10],
+									"sizeAdd": 0.7
+								}
+							]
+						},
+						{
+							"id": "right_leg_pants_tasset2",
+							"invertAxis": "xy",
+							"translate": [3.8, 9.9, 0],
+							"rotate": [0, 0, 12.5],
+							"boxes": [
+								{
+									"coordinates": [-1.5, 0.3, -2, 3, 4, 4],
+									"uvNorth": [201, 5, 205, 10],
+									"uvEast": [196, 5, 201, 10],
+									"uvSouth": [192, 5, 196, 10],
+									"sizeAdd": 0.7
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"submodels": [
+				{
+					"id": "left_leg_pants",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-3.9, 0, -2, 4, 12, 4],
+							"uvNorth": [8, 52, 4, 64],
+							"uvEast": [12, 52, 8, 64],
+							"uvSouth": [16, 52, 12, 64],
+							"uvWest": [4, 52, 0, 64],
+							"uvUp": [4, 48, 8, 52],
+							"sizeAdd": 0.5
+						}
+					],
+					"submodels": [
+						{
+							"id": "left_leg_pants_tasset",
+							"invertAxis": "xy",
+							"translate": [-3.8, 9.9, 0],
+							"rotate": [0, 0, -12.5],
+							"boxes": [
+								{
+									"coordinates": [-1.5, -4.9, -2, 3, 4.9, 4],
+									"uvNorth": [205, 9, 201, 15],
+									"uvSouth": [196, 9, 192, 15],
+									"uvWest": [201, 9, 196, 15],
+									"uvUp": [201, 0, 205, 5],
+									"uvDown": [201, 0, 195, 5],
+									"sizeAdd": 0.7
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"submodels": [
+				{
+					"id": "right_leg_pants",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-0.1, 0, -2, 4, 12, 4],
+							"uvNorth": [4, 52, 8, 64],
+							"uvEast": [0, 52, 4, 64],
+							"uvSouth": [12, 52, 16, 64],
+							"uvWest": [8, 52, 12, 64],
+							"uvUp": [4, 48, 8, 52],
+							"sizeAdd": 0.5
+						}
+					],
+					"submodels": [
+						{
+							"id": "right_leg_pants_tasset",
+							"invertAxis": "xy",
+							"translate": [3.8, 9.9, 0],
+							"rotate": [0, 0, 12.5],
+							"boxes": [
+								{
+									"coordinates": [-1.5, -4.9, -2, 3, 4.9, 4],
+									"uvNorth": [201, 9, 205, 15],
+									"uvEast": [196, 9, 201, 15],
+									"uvSouth": [192, 9, 196, 15],
+									"uvUp": [205, 0, 201, 5],
+									"uvDown": [195, 0, 201, 5],
+									"sizeAdd": 0.7
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
