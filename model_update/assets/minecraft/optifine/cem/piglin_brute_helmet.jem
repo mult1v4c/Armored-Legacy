@@ -3,6 +3,15 @@
 	"textureSize": [512, 256],
 	"models": [
 		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4.5, 24, -4, 9, 8, 8], "textureOffset": [32, 0], "sizeAdd": 1}
+			]
+		},
+		{
 			"part": "head",
 			"id": "head",
 			"invertAxis": "xy",
@@ -58,15 +67,6 @@
 						}
 					]
 				}
-			]
-		},
-		{
-			"part": "headwear",
-			"id": "headwear",
-			"invertAxis": "xy",
-			"translate": [0, -24, 0],
-			"boxes": [
-				{"coordinates": [-4.5, 24, -4, 9, 8, 8], "textureOffset": [32, 0], "sizeAdd": 1}
 			]
 		}
 	]

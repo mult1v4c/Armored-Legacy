@@ -1,0 +1,43 @@
+{
+	"credit": "Made by mult1v4c with Blockbench",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [-3.9, 0, -2, 4, 12, 4],
+					"uvNorth": [16, 40, 8, 64],
+					"uvEast": [24, 40, 16, 64],
+					"uvSouth": [32, 40, 24, 64],
+					"uvWest": [8, 40, 0, 64],
+					"uvUp": [8, 40, 16, 32],
+					"uvDown": [16, 32, 24, 40],
+					"sizeAdd": 0.6
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{
+					"coordinates": [-0.1, 0, -2, 4, 12, 4],
+					"uvNorth": [8, 40, 16, 64],
+					"uvEast": [0, 40, 8, 64],
+					"uvSouth": [24, 40, 32, 64],
+					"uvWest": [16, 40, 24, 64],
+					"uvUp": [16, 40, 8, 32],
+					"uvDown": [24, 32, 16, 40],
+					"sizeAdd": 0.6
+				}
+			]
+		}
+	]
+}
