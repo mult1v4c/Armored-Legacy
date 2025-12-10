@@ -1,0 +1,34 @@
+{
+    id: "armoredLegacy",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter", "DirFilterAdditive"],
+    conf: {
+        defaultDiamondHelmet: {
+            type: "enum",
+            default: "noVisor",
+            values: [
+                "noVisor",
+                "visorUp",
+                "visorDown"
+            ]
+        },
+        defaultNetheriteHelmet: {
+            type: "enum",
+            default: "noVisor",
+            values: [
+                "noVisor",
+                "visorUp",
+                "visorDown"
+            ]
+        },
+        defaultCopperHelmet: {
+            type: "enum",
+            default: "noGoggles",
+            values: [
+                "noGoggles",
+                "gogglesOff",
+                "gogglesOn"
+            ]
+        }
+    }
+}

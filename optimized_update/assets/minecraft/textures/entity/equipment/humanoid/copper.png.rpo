@@ -1,0 +1,7 @@
+{
+    condition: "defaultCopperHelmet.noGoggles",
+    fallback: [
+        "assets/minecraft/textures/entity/equipment/humanoid/visor/copper_goggles_off.png",
+        "assets/minecraft/textures/entity/equipment/humanoid/visor/copper_goggles_on.png"
+    ]
+}
