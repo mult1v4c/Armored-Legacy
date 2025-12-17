@@ -6,6 +6,7 @@
 <a href=https://www.curseforge.com/minecraft/texture-packs/armored-legacy><img alt="Curseforge Badge" src="https://img.shields.io/badge/Curseforge-%23F16436?logo=curseforge&logoColor=white"></a>
 <a href=https://github.com/mult1v4c/armored-legacy><img alt="GitHub badge" src="https://img.shields.io/badge/GitHub-%23181717?style=flat&logo=github&logoColor=white"></a>
 <a href=https://www.ko-fi.com/mult1v4c><img alt="Ko-fi badge" src="https://img.shields.io/badge/Send%20support!-white?style=flat&logo=ko-fi&logoColor=%23FF6433"></a>
+<a href=https://discord.com/invite/7vhvYmvDZn><img alt="Discord" src="https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white"></a>
 </p>
 <h1 align="center">Armored Legacy Resource Pack</h1>
 
@@ -29,9 +30,19 @@ Glowing trims require versions `1.21.2` until `1.21.8` to work as intended. As o
 
 ![Glowing Armor Trim Preview](preview/trims2_night.png)
 
+---
+
 ### Interchangeable Helmets
 
-**⚠️ Important: This feature requires [Variants CIT](https://modrinth.com/mod/variants-cit) installed to work properly.**
+Players can now change the helmet style in multiple ways.
+
+**Respackopts**. You can now change the default helmet style with [Respackopts](https://modrinth.com/mod/respackopts). Just install the mod and change it in the resource pack settings.
+
+![Respackopts](preview/respackopts.png)
+
+---
+
+**⚠️ Important: The feature below requires [Variants CIT](https://modrinth.com/mod/variants-cit) or [CIT Resewn](https://modrinth.com/mod/cit-resewn) installed to work properly.**
 
 You can change Copper, Diamond, and Netherite Helmets to change their looks.
 
@@ -53,7 +64,9 @@ This pack works with versions `1.20` until the latest version.
 
 Make sure this pack is placed **above** any other resource packs to avoid conflicts.
 
-Resource packs that change all vanilla armor are **NOT** compatible. Mods with custom armors may require compatibility packs. If you'd like to create one, please open a thread in the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues).
+**As of `1.4.0`, resource packs that change vanilla armor or add custom armor are now compatible!**
+
+ But certain mods like Advanced Netherite may need extra compatibility due to how the textures are changed. If you'd like to create one for your favorite mod, please open a thread in the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues).
 
 ---
 
@@ -63,33 +76,11 @@ Resource packs that change all vanilla armor are **NOT** compatible. Mods with c
 
 ## ✅ Roadmap
 
-Several mods are now live for testing! These are currently just compatible for Armored Legacy and not yet similar in style.
-
-I'd like to give thanks to GitHub user UlyssGtz and Moses24713 for the wonderful help for the textures some of the mod integrations!
-
-| Mod Name                 | Compatible | AL Style |
-|--------------------------|:----------:|:--------:|
-| Advanced Netherite       |      ✅     |     ❌    |
-| Aquaculture 2            |      ✅     |     ❌    |
-| Born in Chaos            |      ✅     |     ❌    |
-| Create Mod               |      ✅     |     ❌    |
-| Divine RPG               |      ✅     |     ❌    |
-| Friends and Foes         |      ✅     |     ❌    |
-| Gourd Guards             |      ✅     |     ❌    |
-| Mekanism Tools           |      ✅     |     ❌    |
-| Minecolonies             |      ✅     |     ❌    |
-| MmmMmmMmmMmm (Dummy Mod) |      ✅     |     ❌    |
-| Terramity                |      ✅     |     ❌    |
-| Tough As Nails           |      ✅     |     ❌    |
-| Twilight Forest          |      ✅     |     ❌    |
-| Undead Unleashed         |      ✅     |     ❌    |
-| Valarian Conquest        |      ✅     |     ❌    |
-
-Bigger mods that adds multiple armors may take a while to review and complete. Please check the [GitHub Issues page](https://github.com/mult1v4c/Armored-Legacy/issues) to know your favorite mod has been reported.
+- **Armor Icons**. I've been wanting to do this for quite some time now so this is now the top priority
+- **Compatibility pack creation guide**. I'll be making a guide for people who want to have a try on pixel art! This should allow people to share their own packs in the style of Armored Legacy.
+- **Epic Fight Compatibility**. I'm currently working on making Armored Legacy compatible with Epic Fight! [Join the Discord Server](https://discord.com/invite/7vhvYmvDZn) to stay updated.
 
 ## 📝 Attribution
-
-All models and textures in *Armored Legacy* is made by me. However, this pack is inspired and influenced by ***Armory Conglomery*** by ***lukidon*** on [Modrinth](https://modrinth.com/resourcepack/armory-conglomery) and [Curseforge](https://www.curseforge.com/minecraft/texture-packs/armory-conglomery). Check out more of their work [here](https://modrinth.com/user/lukidonu) and [here](https://www.curseforge.com/members/lukidon/projects).
 
 Armor Stand model used in previews is [Fancy Armor Stand Resource Pack](https://modrinth.com/resourcepack/fancy-armor-stand-texture-pack).
 
