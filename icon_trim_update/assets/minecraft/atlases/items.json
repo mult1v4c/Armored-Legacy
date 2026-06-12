@@ -1,0 +1,19 @@
+{
+	"sources": [
+		{
+			"type": "directory",
+			"source": "item/trims/entity/humanoid",
+			"prefix": "item/trims/entity/humanoid/"
+		},
+		{
+			"type": "directory",
+			"source": "item/trims/entity/humanoid_leggings",
+			"prefix": "item/trims/entity/humanoid_leggings/"
+		},
+		{
+		"type": "directory",
+		"source": "item/helmet_variants",
+		"prefix": "item/helmet_variants/"
+		}
+	]
+}

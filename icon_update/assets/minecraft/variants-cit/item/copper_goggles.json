@@ -1,0 +1,11 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:copper_helmet"
+	],
+	"modelPrefix": "copper/",
+	"parameters": {
+		"debug": true
+	}
+}

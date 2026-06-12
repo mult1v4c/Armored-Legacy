@@ -1,0 +1,3179 @@
+{
+	"model": {
+		"type": "minecraft:composite",
+		"models": [
+			{
+				"type": "minecraft:model",
+				"model": "minecraft:item/copper_boots"
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:bolt",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/bolt_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:coast",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/coast_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:dune",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/dune_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:eye",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/eye_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:flow",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/flow_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:host",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/host_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:raiser",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/raiser_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:rib",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/rib_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:sentry",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/sentry_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:shaper",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/shaper_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:silence",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/silence_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:snout",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/snout_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:spire",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/spire_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:tide",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/tide_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:vex",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/vex_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:ward",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/ward_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wayfinder",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wayfinder_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:amethyst"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_amethyst"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:copper"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_copper_darker"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:diamond"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_diamond"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:emerald"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_emerald"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:gold"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_gold"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:iron"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_iron"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:lapis"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_lapis"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:netherite"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_netherite"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:quartz"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_quartz"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:redstone"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_redstone"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			},
+			{
+				"type": "minecraft:condition",
+				"property": "minecraft:component",
+				"predicate": "minecraft:trim",
+				"value": {
+					"pattern": "minecraft:wild",
+					"material": "minecraft:resin"
+				},
+				"on_true": {
+					"type": "minecraft:model",
+					"model": "minecraft:item/trims/boots/wild_resin"
+				},
+				"on_false": {
+					"type": "minecraft:empty"
+				}
+			}
+		]
+	}
+}

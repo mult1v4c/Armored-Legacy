@@ -1,0 +1,7 @@
+{
+    condition: "defaultNetheriteHelmet.noVisor",
+    fallback: [
+        "assets/minecraft/textures/entity/equipment/humanoid/visor/netherite_visor_up.png",
+        "assets/minecraft/textures/entity/equipment/humanoid/visor/netherite_visor_down.png"
+    ]
+}

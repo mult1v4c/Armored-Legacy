@@ -1,0 +1,91 @@
+{
+	"credit": "Made by mult1v4c with Blockbench",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 8, 8],
+					"uvNorth": [16, 16, 32, 32],
+					"uvEast": [0, 16, 16, 32],
+					"uvSouth": [48, 16, 64, 32],
+					"uvWest": [32, 16, 48, 32],
+					"uvUp": [32, 16, 16, 0],
+					"uvDown": [48, 0, 32, 16],
+					"sizeAdd": 0.6
+				},
+				{
+					"coordinates": [-0.75, 32.6, -0.75, 1.5, 3, 1.5],
+					"uvNorth": [4, 0, 6, 4],
+					"uvEast": [4, 0, 6, 4],
+					"uvSouth": [4, 0, 6, 4],
+					"uvWest": [4, 0, 6, 4]
+				},
+				{
+					"coordinates": [-1.5, 35.6, -1.5, 3, 3, 3],
+					"uvNorth": [0, 0, 4, 4],
+					"uvEast": [0, 0, 4, 4],
+					"uvSouth": [0, 0, 4, 4],
+					"uvWest": [0, 0, 4, 4],
+					"uvUp": [0, 0, 4, 4],
+					"uvDown": [0, 4, 4, 8]
+				}
+			],
+			"submodels": [
+				{
+					"id": "visor_up",
+					"invertAxis": "xy",
+					"translate": [6.3, 28.7, 0.3],
+					"rotate": [30, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-10.8, -1.63397, -6, 9, 3, 7],
+							"uvNorth": [112, 40, 122, 44],
+							"uvEast": [112, 44, 120, 48],
+							"uvWest": [120, 44, 112, 48],
+							"uvUp": [122, 40, 112, 32],
+							"sizeAdd": 0.6
+						}
+					]
+				},
+				{
+					"id": "visor_down",
+					"invertAxis": "xy",
+					"translate": [6.3, 28.5, 0.5],
+					"boxes": [
+						{
+							"coordinates": [-10.8, -1.9, -5, 9, 3, 7],
+							"uvNorth": [112, 56, 122, 60],
+							"uvEast": [112, 60, 120, 64],
+							"uvWest": [120, 60, 112, 64],
+							"uvUp": [122, 56, 112, 48],
+							"sizeAdd": 0.6
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{
+					"coordinates": [-4, 24, -4, 8, 8, 8],
+					"uvNorth": [80, 16, 96, 32],
+					"uvEast": [64, 16, 80, 32],
+					"uvSouth": [112, 16, 128, 32],
+					"uvWest": [96, 16, 112, 32],
+					"uvUp": [96, 16, 80, 0],
+					"uvDown": [112, 0, 96, 16],
+					"sizeAdd": 0.8
+				}
+			]
+		}
+	]
+}

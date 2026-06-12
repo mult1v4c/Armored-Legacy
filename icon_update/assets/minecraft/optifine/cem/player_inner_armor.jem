@@ -1,0 +1,167 @@
+{
+	"credit": "Made by mult1v4c with Blockbench",
+	"textureSize": [128, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "body_pants",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-4, 12, -2, 8, 12, 4],
+							"uvNorth": [40, 40, 56, 64],
+							"uvEast": [32, 40, 40, 64],
+							"uvSouth": [64, 40, 80, 64],
+							"uvWest": [56, 40, 64, 64],
+							"uvUp": [56, 40, 40, 32],
+							"uvDown": [72, 32, 56, 40],
+							"sizeAdd": 0.5
+						},
+						{
+							"coordinates": [-4, 13, -2, 8, 2, 4],
+							"uvNorth": [108, 32, 116, 35],
+							"uvEast": [104, 32, 108, 35],
+							"uvSouth": [120, 32, 128, 35],
+							"uvWest": [116, 32, 120, 35],
+							"sizeAdd": 1
+						}
+					],
+					"submodels": [
+						{
+							"id": "body_pants_tasset2",
+							"invertAxis": "xy",
+							"translate": [0, 10.1, 3.3],
+							"rotate": [-10, 0, 0],
+							"boxes": [
+								{"coordinates": [-3, -2, -0.5, 6, 7, 1], "textureOffset": [112, 40]}
+							]
+						},
+						{
+							"id": "left_leg_pants_tasset2",
+							"invertAxis": "xy",
+							"translate": [-3.8, 9.9, 0],
+							"rotate": [0, 0, -12.5],
+							"boxes": [
+								{
+									"coordinates": [-1.5, 0.3, -2, 3, 4, 4],
+									"uvNorth": [125, 54, 121, 59],
+									"uvSouth": [116, 54, 112, 59],
+									"uvWest": [121, 54, 116, 59],
+									"sizeAdd": 0.7
+								}
+							]
+						},
+						{
+							"id": "right_leg_pants_tasset2",
+							"invertAxis": "xy",
+							"translate": [3.8, 9.9, 0],
+							"rotate": [0, 0, 12.5],
+							"boxes": [
+								{
+									"coordinates": [-1.5, 0.3, -2, 3, 4, 4],
+									"uvNorth": [121, 54, 125, 59],
+									"uvEast": [116, 54, 121, 59],
+									"uvSouth": [112, 54, 116, 59],
+									"sizeAdd": 0.7
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"submodels": [
+				{
+					"id": "left_leg_pants",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-3.9, 0, -2, 4, 12, 4],
+							"uvNorth": [16, 40, 8, 64],
+							"uvEast": [24, 40, 16, 64],
+							"uvSouth": [32, 40, 24, 64],
+							"uvWest": [8, 40, 0, 64],
+							"uvUp": [8, 32, 16, 40],
+							"sizeAdd": 0.5
+						}
+					],
+					"submodels": [
+						{
+							"id": "left_leg_pants_tasset",
+							"invertAxis": "xy",
+							"translate": [-3.8, 9.9, 0],
+							"rotate": [0, 0, -12.5],
+							"boxes": [
+								{
+									"coordinates": [-1.5, -4.9, -2, 3, 4.9, 4],
+									"uvNorth": [125, 58, 121, 64],
+									"uvSouth": [116, 58, 112, 64],
+									"uvWest": [121, 58, 116, 64],
+									"uvUp": [121, 49, 125, 54],
+									"uvDown": [121, 49, 115, 54],
+									"sizeAdd": 0.7
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"submodels": [
+				{
+					"id": "right_leg_pants",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{
+							"coordinates": [-0.1, 0, -2, 4, 12, 4],
+							"uvNorth": [8, 40, 16, 64],
+							"uvEast": [0, 40, 8, 64],
+							"uvSouth": [24, 40, 32, 64],
+							"uvWest": [16, 40, 24, 64],
+							"uvUp": [8, 32, 16, 40],
+							"sizeAdd": 0.5
+						}
+					],
+					"submodels": [
+						{
+							"id": "right_leg_pants_tasset",
+							"invertAxis": "xy",
+							"translate": [3.8, 9.9, 0],
+							"rotate": [0, 0, 12.5],
+							"boxes": [
+								{
+									"coordinates": [-1.5, -4.9, -2, 3, 4.9, 4],
+									"uvNorth": [121, 58, 125, 64],
+									"uvEast": [116, 58, 121, 64],
+									"uvSouth": [112, 58, 116, 64],
+									"uvUp": [125, 49, 121, 54],
+									"uvDown": [115, 49, 121, 54],
+									"sizeAdd": 0.7
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

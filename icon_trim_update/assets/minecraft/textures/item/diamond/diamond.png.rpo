@@ -1,0 +1,7 @@
+{
+    condition: "defaultDiamondHelmet.noVisor",
+    fallback: [
+        "assets/minecraft/textures/item/visor/diamond_visor_up.png",
+        "assets/minecraft/textures/item/visor/diamond_visor_down.png"
+    ]
+}

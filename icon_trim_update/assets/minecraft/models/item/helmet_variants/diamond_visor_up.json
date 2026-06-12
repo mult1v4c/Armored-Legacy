@@ -1,0 +1,176 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made by mult1v4c with Blockbench",
+	"texture_size": [128, 64],
+	"textures": {
+		"0": "item/helmet_variants/diamond_visor_up",
+		"particle": "item/helmet_variants/diamond_visor_up"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [3.4, 0.8, 3.4],
+			"to": [12.6, 10, 12.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -22, 8]},
+			"faces": {
+				"north": {"uv": [2, 4, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 4, 2, 8], "texture": "#0"},
+				"south": {"uv": [6, 4, 8, 8], "texture": "#0"},
+				"west": {"uv": [4, 4, 6, 8], "texture": "#0"},
+				"up": {"uv": [4, 4, 2, 0], "texture": "#0"},
+				"down": {"uv": [6, 0, 4, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [7.25, 10, 7.25],
+			"to": [8.75, 13, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -19, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 0, 0.75, 1], "texture": "#0"},
+				"east": {"uv": [0.5, 0, 0.75, 1], "texture": "#0"},
+				"south": {"uv": [0.5, 0, 0.75, 1], "texture": "#0"},
+				"west": {"uv": [0.5, 0, 0.75, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head",
+			"from": [6.5, 13, 6.5],
+			"to": [9.5, 16, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 1], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.5, 1], "texture": "#0"},
+				"south": {"uv": [0, 0, 0.5, 1], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.5, 1], "texture": "#0"},
+				"up": {"uv": [0, 0, 0.5, 1], "texture": "#0"},
+				"down": {"uv": [0, 1, 0.5, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "visor_up",
+			"from": [2.9, 5.46603, 2.2],
+			"to": [13.1, 9.66603, 10.4],
+			"rotation": {"angle": 30, "axis": "x", "origin": [8, 7.56603, 6.3]},
+			"faces": {
+				"north": {"uv": [14, 10, 15.25, 11], "texture": "#0"},
+				"east": {"uv": [14, 11, 15, 12], "texture": "#0"},
+				"west": {"uv": [15, 11, 14, 12], "texture": "#0"},
+				"up": {"uv": [15.25, 10, 14, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "visor_down",
+			"from": [2.9, 4, 2.9],
+			"to": [13.1, 8.2, 11.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -22, 8]},
+			"faces": {
+				"north": {"uv": [14, 14, 15.25, 15], "texture": "#0"},
+				"east": {"uv": [14, 15, 15, 16], "texture": "#0"},
+				"west": {"uv": [15, 15, 14, 16], "texture": "#0"},
+				"up": {"uv": [15.25, 14, 14, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head inverted",
+			"from": [12.6, 10, 12.6],
+			"to": [3.4, 0.8, 3.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -22, 8]},
+			"faces": {
+				"north": {"uv": [6, 8, 8, 4], "texture": "#0"},
+				"east": {"uv": [4, 8, 6, 4], "texture": "#0"},
+				"south": {"uv": [2, 8, 4, 4], "texture": "#0"},
+				"west": {"uv": [0, 8, 2, 4], "texture": "#0"},
+				"up": {"uv": [4, 0, 6, 4], "texture": "#0"},
+				"down": {"uv": [2, 4, 4, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "headwear",
+			"from": [3.2, 0.6, 3.2],
+			"to": [12.8, 10.2, 12.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -21.8, 8]},
+			"faces": {
+				"north": {"uv": [10, 4, 12, 8], "texture": "#0"},
+				"east": {"uv": [8, 4, 10, 8], "texture": "#0"},
+				"south": {"uv": [14, 4, 16, 8], "texture": "#0"},
+				"west": {"uv": [12, 4, 14, 8], "texture": "#0"},
+				"up": {"uv": [12, 4, 10, 0], "texture": "#0"},
+				"down": {"uv": [14, 0, 12, 4], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 135, 0],
+			"translation": [0, 4, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [22.5, 135, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"translation": [0, 3, 0]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "head",
+			"origin": [8, 24, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [
+				0,
+				1,
+				2,
+				{
+					"name": "visor_up",
+					"origin": [14.3, 28.7, 8.3],
+					"scope": 0,
+					"color": 0,
+					"children": [3]
+				},
+				{
+					"name": "visor_down",
+					"origin": [14.3, 28.5, 8.5],
+					"scope": 0,
+					"color": 0,
+					"children": [4]
+				},
+				5
+			]
+		},
+		{
+			"name": "headwear",
+			"origin": [8, 24, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [6]
+		}
+	]
+}

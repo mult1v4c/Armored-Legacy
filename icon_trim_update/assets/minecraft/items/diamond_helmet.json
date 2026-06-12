@@ -1,0 +1,3206 @@
+{
+    "model": {
+        "type": "minecraft:composite",
+        "models": [
+            {
+                "type": "minecraft:select",
+                "property": "minecraft:component",
+                "component": "minecraft:custom_name",
+                "cases": [
+                    {
+                        "when": [
+                            "diamond visor up",
+                            "Diamond Visor Up"
+                        ],
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/helmet_variants/diamond_visor_up"
+                        }
+                    },
+                    {
+                        "when": [
+                            "diamond visor down",
+                            "Diamond Visor Down"
+                        ],
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "minecraft:item/helmet_variants/diamond_visor_down"
+                        }
+                    }
+                ],
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/diamond_helmet"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:bolt",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/bolt_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:coast",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/coast_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:dune",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/dune_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:eye",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/eye_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:flow",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/flow_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:host",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/host_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:raiser",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/raiser_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:rib",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/rib_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:sentry",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/sentry_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:shaper",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/shaper_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:silence",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/silence_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:snout",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/snout_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:spire",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/spire_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:tide",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/tide_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:vex",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/vex_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:ward",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/ward_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wayfinder",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wayfinder_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:amethyst"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_amethyst"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:copper"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_copper"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:diamond"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_diamond_darker"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:emerald"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_emerald"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:gold"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_gold"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:iron"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_iron"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:lapis"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_lapis"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:netherite"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_netherite"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:quartz"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_quartz"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:redstone"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_redstone"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:trim",
+                "value": {
+                    "pattern": "minecraft:wild",
+                    "material": "minecraft:resin"
+                },
+                "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trims/helmet/wild_resin"
+                },
+                "on_false": {
+                    "type": "minecraft:empty"
+                }
+            }
+        ]
+    }
+}

@@ -1,5 +1,5 @@
 <p align="center">
-<img src="preview/cover1.2.0.png">
+<img src="preview/cover26.1.2.png">
 <br>
 <br>
 <a href=https://modrinth.com/resourcepack/armored-legacy><img alt="Modrinth badge" src="https://img.shields.io/badge/Modrinth-%2300AF5C?style=flat&logo=modrinth&logoColor=white"></a>
@@ -15,6 +15,15 @@
 ![Armor Sets Preview](preview/set_update.png)
 
 ## 🎨 Features
+
+### Visible Trims
+
+This latest feature displays the actual armor as items! Supports all unique armor trim styles and materials! Works as held item, inside item frames, in GUI, and items on the floor. Helmet variants are also supported.
+
+![GUI](preview/trims.gif)
+![Floor](preview/floor.png)
+![Item Frame](preview/itemframe.png)
+
 
 ### Armor Trims
 
@@ -76,7 +85,6 @@ Make sure this pack is placed **above** any other resource packs to avoid confli
 
 ## ✅ Roadmap
 
-- **Armor Icons**. I've been wanting to do this for quite some time now so this is now the top priority
 - **Compatibility pack creation guide**. I'll be making a guide for people who want to have a try on pixel art! This should allow people to share their own packs in the style of Armored Legacy.
 - **Epic Fight Compatibility**. I'm currently working on making Armored Legacy compatible with Epic Fight! [Join the Discord Server](https://discord.com/invite/7vhvYmvDZn) to stay updated.
 
