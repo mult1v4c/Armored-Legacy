@@ -7,7 +7,7 @@
 *_bak.*
 *.psd
 *.test
-*.gif
+.gif
 .templates
 .venv
 .archive
